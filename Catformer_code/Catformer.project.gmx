@@ -10,6 +10,12 @@
     <sprite>sprites\chat_droite</sprite>
     <sprite>sprites\chat_gauche</sprite>
     <sprite>sprites\chat_sans_mouvemt</sprite>
+    <sprites name="rotate rooms">
+      <sprite>sprites\R0_to_R1</sprite>
+      <sprite>sprites\R1_to_R2</sprite>
+      <sprite>sprites\R1_to_R0</sprite>
+      <sprite>sprites\R2_to_R1</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -31,10 +37,16 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\chat_obj</object>
+    <object>objects\go_R1</object>
+    <object>objects\go_R2</object>
+    <object>objects\back_R0</object>
+    <object>objects\back_R1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\room0_back</room>
     <room>rooms\room1</room>
+    <room>rooms\room1_back</room>
     <room>rooms\room2</room>
   </rooms>
   <help>
