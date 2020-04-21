@@ -1,0 +1,16 @@
+Notes importantes aux graphistes !!
+
+Si vous changez l'apparence d'une room, svp changer 
+uniquement les "room" et JAMAIS les "room_back" !
+
+-----
+{ Les "room_back" ne sont que des copies de "room" pour que le personnage
+apparaisse au bon endroit. 
+En gros sans ces copies, ilapparaît au milieu de la room comme au début 
+alors qu'on veut qu'il soit du côté où il marchait. }
+-----
+
+Pour tout changement de tiles/background dans une room,
+prévenez-moi. Même pour un pixel ou un détail !! 
+
+<3 coeur sur vous les plus belles ! <3
